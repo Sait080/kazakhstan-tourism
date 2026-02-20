@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шарын шатқалы - Қазақстан Туризмі</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="detail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-mountain"></i>
+                <span>Qazaqstan</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html#home">Басты бет</a></li>
+                <li><a href="index.html#destinations" class="active">Туристік нысандар</a></li>
+                <li><a href="index.html#cities">Қалалар</a></li>
+                <li><a href="index.html#nature">Табиғат</a></li>
+                <li><a href="index.html#about">Біз туралы</a></li>
+                <li><a href="index.html#contact">Байланыс</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="detail-hero" style="background-image: url('images/charyn-canyon.jpg');">
+        <div class="detail-hero-overlay"></div>
+        <div class="detail-hero-content">
+            <div class="breadcrumb">
+                <a href="index.html">Басты бет</a>
+                <i class="fas fa-chevron-right"></i>
+                <a href="index.html#nature">Табиғат</a>
+                <i class="fas fa-chevron-right"></i>
+                <span>Шарын шатқалы</span>
+            </div>
+            <h1>Шарын шатқалы</h1>
+            <p>Қазақтың Гранд Каньоны</p>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <i class="fas fa-ruler-horizontal"></i>
+                    <span>154 км ұзындық</span>
+                </div>
+                <div class="hero-stat">
+                    <i class="fas fa-star"></i>
+                    <span>4.9 рейтинг</span>
+                </div>
+                <div class="hero-stat">
+                    <i class="fas fa-mountain"></i>
+                    <span>300 м тереңдік</span>
+                </div>
+            </div>
+            <a href="#book" class="btn btn-primary btn-large">Тур брондау</a>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="detail-info">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-main">
+                    <h2>Шарын шатқалы туралы</h2>
+                    <p>Шарын шатқалы — Қазақстандағы ең танымал табиғи ескерткіштердің бірі. 154 шақырым ұзындықта созылып жатыр, тереңдігі 300 метрге жетеді. Шатқал қызыл-қоңыр жартастарымен, ерекше геологиялық пішіндерімен танымал.</p>
+                    <p>Шатқал 12 миллион жыл бұрын Шарын өзенінің эрозиясы нәтижесінде пайда болған. Бұл жерде 1500-ден астам өсімдік түрі өседі, оның 17-сі Қазақстанның Қызыл кітабына енгізілген.</p>
+                    
+                    <div class="features-section">
+                        <h3>Негізгі ерекшеліктер</h3>
+                        <div class="features-grid">
+                            <div class="feature-item">
+                                <i class="fas fa-mountain"></i>
+                                <h4>Ұзындығы</h4>
+                                <p>154 км - Қазақстандағы ең ұзын шатқал</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-layer-group"></i>
+                                <h4>Жас шамасы</h4>
+                                <p>12 миллион жылдық геологиялық тарих</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-tree"></i>
+                                <h4>Өсімдіктер</h4>
+                                <p>1500+ өсімдік түрі, 17 сирек түр</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-camera"></i>
+                                <h4>Фотосессия</h4>
+                                <p>Керемет көріністер мен панорамалар</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-sidebar">
+                    <div class="sidebar-card">
+                        <h4>Нысан туралы ақпарат</h4>
+                        <ul class="info-list">
+                            <li><span>Орналасуы:</span> Алматы облысы</li>
+                            <li><span>Алматыдан:</span> 200 км</li>
+                            <li><span>Ұзындығы:</span> 154 км</li>
+                            <li><span>Тереңдігі:</span> 200-300 м</li>
+                            <li><span>Ені:</span> 20-80 м</li>
+                            <li><span>Қорғалуы:</span> Ұлттық парк</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="sidebar-card">
+                        <h4>Ауа райы</h4>
+                        <div class="weather-widget">
+                            <div class="weather-main">
+                                <i class="fas fa-sun"></i>
+                                <span class="temp">+28°C</span>
+                            </div>
+                            <p>Жазда +25...+35°C</p>
+                            <p>Қыста -5...-15°C</p>
+                            <p>Ең жақсы уақыт: Сәуір-Мамыр, Қыркүйек-Қазан</p>
+                        </div>
+                    </div>
+                    
+                    <div class="sidebar-card">
+                        <h4>Бағалар</h4>
+                        <ul class="price-list">
+                            <li><span>Кіру:</span> 1000 тг</li>
+                            <li><span>Экскурсия:</span> 5000-15000 тг</li>
+                            <li><span>Трансфер:</span> 30000-50000 тг</li>
+                            <li><span>Кемпинг:</span> 2000 тг/түн</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Attractions Section -->
+    <section class="attractions">
+        <div class="container">
+            <h2 class="section-title">Негізгі көрікті жерлер</h2>
+            
+            <div class="attractions-grid">
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/charyn-canyon.jpg" alt="Шарын шатқалы">
+                    </div>
+                    <div class="attraction-content">
+                        <h3>Шарын шатқалы</h3>
+                        <p>Негізгі шатқал. Қызыл-қоңыр жартастар, тік қабырғалар, керемет көріністер.</p>
+                        <div class="attraction-meta">
+                            <span><i class="fas fa-clock"></i> 24/7</span>
+                            <span><i class="fas fa-ticket-alt"></i> 1000 тг</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/charyn-canyon.jpg" alt="Ақ шатқал">
+                    </div>
+                    <div class="attraction-content">
+                        <h3>Ақ шатқал</h3>
+                        <p>Шарынның тармағы. Ақ түсті жартастар, керемет фотолокация.</p>
+                        <div class="attraction-meta">
+                            <span><i class="fas fa-clock"></i> Күндіз</span>
+                            <span><i class="fas fa-ticket-alt"></i> Тегін</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/charyn-canyon.jpg" alt="Үңгірлер">
+                    </div>
+                    <div class="attraction-content">
+                        <h3>Үңгірлер</h3>
+                        <p>Шатқал бойындағы көне үңгірлер. Археологиялық табылдыстар.</p>
+                        <div class="attraction-meta">
+                            <span><i class="fas fa-clock"></i> Күндіз</span>
+                            <span><i class="fas fa-ticket-alt"></i> Тегін</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/charyn-canyon.jpg" alt="Шарын өзені">
+                    </div>
+                    <div class="attraction-content">
+                        <h3>Шарын өзені</h3>
+                        <p>Шатқал арқылы ағатын өзен. Жағажай аймақтары, демалыс орындары.</p>
+                        <div class="attraction-meta">
+                            <span><i class="fas fa-clock"></i> 24/7</span>
+                            <span><i class="fas fa-ticket-alt"></i> Тегін</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/charyn-canyon.jpg" alt="Кемпинг">
+                    </div>
+                    <div class="attraction-content">
+                        <h3>Кемпинг аймағы</h3>
+                        <p>Шатқал ішінде кемпинг орны. Түнде жұлдыздарды тамашалау.</p>
+                        <div class="attraction-meta">
+                            <span><i class="fas fa-clock"></i> 24/7</span>
+                            <span><i class="fas fa-ticket-alt"></i> 2000 тг</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="images/charyn-canyon.jpg" alt="Көзқарас алаңы">
+                    </div>
+                    <div class="attraction-content">
+                        <h3>Көзқарас алаңы</h3>
+                        <p>Шатқалдың үстінен панорамалық көрініс. Күн батқанда ең әдемі.</p>
+                        <div class="attraction-meta">
+                            <span><i class="fas fa-clock"></i> 24/7</span>
+                            <span><i class="fas fa-ticket-alt"></i> Тегін</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section class="activities-section" style="padding: 80px 0; background: var(--light-color);">
+        <div class="container">
+            <h2 class="section-title">Істеуге болатын істер</h2>
+            <div class="features-grid" style="margin-top: 40px;">
+                <div class="feature-item">
+                    <i class="fas fa-hiking"></i>
+                    <h4>Треккинг</h4>
+                    <p>Шатқал бойымен жаяу жүріс. 3-5 сағаттық маршруттар.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-camera"></i>
+                    <h4>Фотосессия</h4>
+                    <p>Керемет табиғи фондар. Күн батқанда ең жақсы.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-campground"></i>
+                    <h4>Кемпинг</h4>
+                    <p>Түнде шатқалда қалу. Жұлдыздарды тамашалау.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-horse"></i>
+                    <h4>Атпен серуен</h4>
+                    <p>Шатқал айналасында атпен жүру.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Картадағы орналасуы</h2>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23258.123456789!2d79.0!3d43.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDPCsDMwJzAwLjAiTiA3OcKwMDAnMDAuMCJF!5e0!3m2!1sen!2skz!4v1704067200000!5m2!1sen!2skz"
+                    width="100%" 
+                    height="450" 
+                    style="border:0; border-radius: 20px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Фотогалерея</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <img src="images/charyn-canyon.jpg" alt="Шарын шатқалы">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/charyn-canyon.jpg" alt="Жартастар">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/charyn-canyon.jpg" alt="Көзқарас">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/charyn-canyon.jpg" alt="Күн бату">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/charyn-canyon.jpg" alt="Өзен">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking-section" id="book">
+        <div class="container">
+            <div class="booking-content">
+                <div class="booking-text">
+                    <h2>Шарын шатқалына тур брондаңыз</h2>
+                    <p>Біз сізге тамаша демалыс ұйымдастыруға көмектесеміз. Экскурсиялар, трансфер, кемпинг - бәрін бізге тапсырыңыз!</p>
+                    <ul class="booking-features">
+                        <li><i class="fas fa-check-circle"></i> Тегін консультация</li>
+                        <li><i class="fas fa-check-circle"></i> Жеке турлар</li>
+                        <li><i class="fas fa-check-circle"></i> Топтық жеңілдіктер</li>
+                        <li><i class="fas fa-check-circle"></i> 24/7 қолдау</li>
+                    </ul>
+                </div>
+                <form class="booking-form" id="bookingForm">
+                    <h3>Тур брондау</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Аты-жөні</label>
+                            <input type="text" placeholder="Аты-жөніңіз" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Телефон</label>
+                            <input type="tel" placeholder="+7 (___) ___-__-__" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="email@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Адам саны</label>
+                            <select required>
+                                <option value="">Таңдаңыз</option>
+                                <option value="1">1 адам</option>
+                                <option value="2">2 адам</option>
+                                <option value="3-5">3-5 адам</option>
+                                <option value="6+">6+ адам</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Келетін күні</label>
+                            <input type="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Тур түрі</label>
+                            <select required>
+                                <option value="">Таңдаңыз</option>
+                                <option value="day">Күндізгі тур</option>
+                                <option value="sunset">Күн бату туры</option>
+                                <option value="camping">Кемпинг туры</option>
+                                <option value="photo">Фото тур</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Қосымша тілектер</label>
+                        <textarea rows="3" placeholder="Қосымша ақпарат..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Брондау</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews-section">
+        <div class="container">
+            <h2 class="section-title">Туристердің пікірлері</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="reviewer-info">
+                            <h4>Дмитрий Иванов</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Бұл керемет! Американың Гранд Каньонынан кем емес. Қызыл жартастар керемет көрініс береді. Күн батқанда баруды ұсынамын!</p>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="reviewer-info">
+                            <h4>Гүлнұр Ахметова</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Кемпинг жасап, түнде жұлдыздарды тамашаладық - бұл ұмытылмас тәжірибе! Экскурсия өте қызықты болды.</p>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="reviewer-info">
+                            <h4>Майкл Браун</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Фотограф ретінде айтсам - бұл жұмақ! Әр бұрышта керемет кадрлар. Міндетті түрде қайтып келемін!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Section -->
+    <section class="related-section">
+        <div class="container">
+            <h2 class="section-title">Ұқсас нысандар</h2>
+            <div class="related-grid">
+                <a href="almaty-lake.html" class="related-card">
+                    <img src="images/almaty-lake.jpg" alt="Үлкен Алматы көлі">
+                    <h4>Үлкен Алматы көлі</h4>
+                </a>
+                <a href="burabay.html" class="related-card">
+                    <img src="images/burabay.jpg" alt="Бурабай">
+                    <h4>Бурабай</h4>
+                </a>
+                <a href="kolsai.html" class="related-card">
+                    <img src="images/kolsai.jpg" alt="Көлсай">
+                    <h4>Көлсай</h4>
+                </a>
+                <a href="mangystau.html" class="related-card">
+                    <img src="images/mangystau.jpg" alt="Маңғыстау">
+                    <h4>Маңғыстау</h4>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-mountain"></i>
+                        <span>Qazaqstan</span>
+                    </div>
+                    <p>Қазақстан - табиғаттың ғажайыптары мен мәдениеттің тоғысқан жері.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Тез сілтемелер</h4>
+                    <ul>
+                        <li><a href="index.html#home">Басты бет</a></li>
+                        <li><a href="index.html#destinations">Туристік нысандар</a></li>
+                        <li><a href="index.html#nature">Табиғат</a></li>
+                        <li><a href="index.html#contact">Байланыс</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Байланыс</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +7 (777) 777-77-77</li>
+                        <li><i class="fas fa-envelope"></i> kazakhstan-tourism.kz</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Қазақстан Туризмі. Барлық құқықтар қорғалған.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="detail.js"></script>
+</body>
+</html>
